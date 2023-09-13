@@ -1,4 +1,4 @@
-# 🐋 MLflow Dockerfile
+# 🐋 MLflow Server Docker Image
 
 Unofficial Dockerfile for [MLflow](https://mlflow.org/) server with out of the box support for PostgreSQL and S3 storage
 as backend.
@@ -15,12 +15,12 @@ However, the image can be used with other backends as well.
 To run with PostgreSQL and S3 backend you need to have a PostgreSQL database and S3 compatible storage up and running
 and corresponding credentials. These are:
 
--[ ] `AWS_ACCESS_KEY_ID` -- access key to your S3 storage (e.g. `KHM923OI3ND2022D2EEF`)
--[ ] `AWS_SECRET_ACCESS_KEY` -- secret access key to your S3 storage (e.g. `SDFKJ3230-99822JKDN2O2KJD2KJWDNJKSDF`)
--[ ] `MLFLOW_S3_ENDPOINT_URL` -- URL of your S3 storage (e.g. `https://fra1.digitaloceanspaces.com`)
--[ ] `BUCKET_NAME` -- name of the bucket in your S3 storage, where you want to store your experiment data (
+- [ ] `AWS_ACCESS_KEY_ID` -- access key to your S3 storage (e.g. `KHM923OI3ND2022D2EEF`)
+- [ ] `AWS_SECRET_ACCESS_KEY` -- secret access key to your S3 storage (e.g. `SDFKJ3230-99822JKDN2O2KJD2KJWDNJKSDF`)
+- [ ] `MLFLOW_S3_ENDPOINT_URL` -- URL of your S3 storage (e.g. `https://fra1.digitaloceanspaces.com`)
+- [ ] `BUCKET_NAME` -- name of the bucket in your S3 storage, where you want to store your experiment data (
  e.g. `mlflow-joe123`)
--[ ] `POSTGRES_URI` -- URI to your PostgreSQL database (
+- [ ] `POSTGRES_URI` -- URI to your PostgreSQL database (
  e.g. `postgresql://mlflowUser:secret_password@postgres-cluster-do-user-1234567-0.b.db.ondigitalocean.com:25060/mlflow`)
 
 ### Run Locally
