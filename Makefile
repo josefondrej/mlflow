@@ -1,4 +1,4 @@
-BASE_NAME="josefondrej/mlflow-postgres"
+BASE_NAME="josefondrej/mlflow"
 MLFLOW_VERSION?=2.6.0
 
 IMAGE_NAME="${BASE_NAME}:${MLFLOW_VERSION}"
